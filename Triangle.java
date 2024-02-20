@@ -2,7 +2,7 @@ public class Triangle extends Shape {
 
     private double width;
 
-    private  double height;
+    private double height;
 
     public Triangle(double width, double height) {
         this.width = width;
@@ -33,10 +33,7 @@ public class Triangle extends Shape {
 
     @Override
     public String toString() {
-        return "Triangle{" +
-                "width=" + width +
-                ", height=" + height +
-                '}';
+        return "Triangle{" + "width=" + width + ", height=" + height + '}';
     }
 
 }

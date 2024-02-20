@@ -3,9 +3,9 @@ public class Rectangle extends Shape {
 
     private double height;
 
-    public Rectangle(double width, double heigth) {
+    public Rectangle(double width, double height) {
         this.width = width;
-        this.height = heigth;
+        this.height = height;
     }
 
     public double getWidth() {
